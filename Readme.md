@@ -33,7 +33,11 @@ This project is developed in Python + OpenCV for implementing some techinques of
 - Quantization
 - Clustering
 
-### [06 Wavelet](#)
+### [06 Wavelet](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/06%20Wavelet.ipynb)
+- Discrete Wavelet Transform(DWT)
+- Multi-level DWT
+- Approximation & Prediction Residual Pyramids
+- Denoising with Wavelet
 
 ### [07 Features](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/07%20Features.ipynb)
 
@@ -42,12 +46,47 @@ This project is developed in Python + OpenCV for implementing some techinques of
 
 
 ## Environment
-
+- Python: 3.9
+- OpenCV: 4.5
+- Numpy: 1.22
+- Pandas: 1.3
+- Matplotlib: 3.4
+- Scikit-image: 0.18
+- PyWavelets: 1.2
   
 ## Setup Guide
+Clone the repository:
 
+```
+git clone https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects.git
+```
+Create a virtual environement (to avoid conflicts):
+
+```
+virtualenv -p python3.9 fcv
+
+# this may vary depending on your shell
+. recsys/bin/activate
+```
+
+Install the dependencies:
+```
+pip install -r requirements.txt
+```
+
+If you want to work on jupyter notebook, you may need to setup a kernel on your virtual environment to make sure all your modules execute correctly.
+```
+python -m ipykernel install --name fcvkernel
+
+# Now you get a kernel named `fcvkernel` in your jupyter notebook
+```  
 
 ## Future Works
+- Correct and improve the image registration algorithm in [01 Image Fundamentals.ipynb](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/01%20Image%20Fundamentals.ipynb) notebook.
+
+- Improve the algoirthms in [02 Contrast Adjustment.ipynb](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/02%20Contrast%20Adjustment.ipynb) and [03 Filter.ipynb](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/03%20Filters.ipynb)
+
+- Apply OOP to algorithms and visualization plots to gain reusability.
 
 
 ## Contributing
