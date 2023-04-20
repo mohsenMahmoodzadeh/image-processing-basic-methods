@@ -55,12 +55,30 @@ This project is developed in Python + OpenCV for implementing some techinques of
 - PyWavelets: 1.2
   
 ## Setup Guide
-Clone the repository:
+- Clone the repository:
 
 ```
 git clone https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods.git
 ```
-Create a virtual environment (to avoid conflicts):
+
+- Set up Git-LFS:
+```
+# install the package
+apt-get install git-lfs
+
+# initialize it on the project
+git lfs install
+
+# modify the git config not to download large files at first 
+git config --global filter.lfs.smudge "git-lfs smudge --skip -- %f"
+git config --global filter.lfs.process "git-lfs filter-process --skip"
+
+# pull the large files into the project
+git lfs pull
+```
+
+
+- Create a virtual environment (to avoid conflicts):
 
 ```
 virtualenv -p python3.9 fcv
