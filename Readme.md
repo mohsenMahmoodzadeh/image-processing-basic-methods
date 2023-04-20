@@ -5,17 +5,17 @@ This project is developed in Python + OpenCV for implementing some techinques of
 
 
 ## Outline
-### [01 Image Fundamentals](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/01%20Image%20Fundamentals.ipynb)
+### [01 Image Fundamentals](https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods/blob/master/01%20Image%20Fundamentals.ipynb)
 - Geometric Transformations(e.g. rotation, image stitching)
-- Histogram Equaliztion
+- Histogram Equalization
 - Interpolation
 
-### [02 Contrast Adjustment](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/02%20Contrast%20Adjustment.ipynb)
+### [02 Contrast Adjustment](https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods/blob/master/02%20Contrast%20Adjustment.ipynb)
 - Image Adjusting
-- Histogram Equaliztion
+- Histogram Equalization
 - Local Histogram Equalization(LHE)
 
-### [03 Filters](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/03%20Filters.ipynb)
+### [03 Filters](https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods/blob/master/03%20Filters.ipynb)
 - Box Filter
 - Median Filter
 - Noises(e.g. salt-and-pepper, gaussian)
@@ -23,23 +23,23 @@ This project is developed in Python + OpenCV for implementing some techinques of
 - Edge Detection(first-order difference, robert, sobel)
 - Unsharp Masking
 
-### [04 Frequency Domain](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/04%20Frequency%20Domain.ipynb)
+### [04 Frequency Domain](https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods/blob/master/04%20Frequency%20Domain.ipynb)
 - Discrete Fourier Transform(DFT)
 - Separable Filters
 - Filtering
 
-### [05 Color](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/05%20Colors.ipynb)
+### [05 Color](https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods/blob/master/05%20Colors.ipynb)
 - Color Spaces(e.g. RGB, HSI)
 - Quantization
 - Clustering
 
-### [06 Wavelet](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/06%20Wavelet.ipynb)
+### [06 Wavelet](https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods/blob/master/06%20Wavelet.ipynb)
 - Discrete Wavelet Transform(DWT)
 - Multi-level DWT
 - Approximation & Prediction Residual Pyramids
 - Denoising with Wavelet
 
-### [07 Features](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/07%20Features.ipynb)
+### [07 Features](https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods/blob/master/07%20Features.ipynb)
 
 - Estimate Geometry
 - Corner Detection(with Harris algorithm)
@@ -58,9 +58,9 @@ This project is developed in Python + OpenCV for implementing some techinques of
 Clone the repository:
 
 ```
-git clone https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects.git
+git clone https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods.git
 ```
-Create a virtual environement (to avoid conflicts):
+Create a virtual environment (to avoid conflicts):
 
 ```
 virtualenv -p python3.9 fcv
@@ -74,7 +74,7 @@ Install the dependencies:
 pip install -r requirements.txt
 ```
 
-If you want to work on jupyter notebook, you may need to setup a kernel on your virtual environment to make sure all your modules execute correctly.
+If you want to work on jupyter notebook, you may need to set up a kernel on your virtual environment to make sure all your modules execute correctly.
 ```
 python -m ipykernel install --name fcvkernel
 
@@ -82,9 +82,9 @@ python -m ipykernel install --name fcvkernel
 ```  
 
 ## Future Works
-- Correct and improve the image registration algorithm in [01 Image Fundamentals.ipynb](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/01%20Image%20Fundamentals.ipynb) notebook.
+- Correct and improve the image registration algorithm in [01 Image Fundamentals.ipynb](https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods/blob/master/01%20Image%20Fundamentals.ipynb) notebook.
 
-- Improve the algoirthms in [02 Contrast Adjustment.ipynb](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/02%20Contrast%20Adjustment.ipynb) and [03 Filter.ipynb](https://github.com/mohsenMahmoodzadeh/Fundamentals-of-Computer-Vision-projects/blob/master/03%20Filters.ipynb)
+- Improve the algorithms in [02 Contrast Adjustment.ipynb](https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods/blob/master/02%20Contrast%20Adjustment.ipynb) and [03 Filter.ipynb](https://github.com/mohsenMahmoodzadeh/image-processing-basic-methods/blob/master/03%20Filters.ipynb)
 
 - Apply OOP to algorithms and visualization plots to gain reusability.
 
