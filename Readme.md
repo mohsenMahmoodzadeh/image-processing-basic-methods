@@ -84,7 +84,7 @@ git lfs pull
 virtualenv -p python3.9 fcv
 
 # this may vary depending on your shell
-. recsys/bin/activate
+. fcv/bin/activate
 ```
 
 Install the dependencies:
